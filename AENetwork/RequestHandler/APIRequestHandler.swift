@@ -31,7 +31,7 @@ extension APIRequestHandler where Self: URLRequestBuilder {
                 self.handleResponse(response, then: then)
             }.responseJSON { (response) in
                     // handle debug
-                    print(response.result.value)
+                
             }
         }
     }
@@ -63,7 +63,7 @@ extension APIRequestHandler {
                 requestUp.responseData(completionHandler: { (results) in
                     self.handleResponse(results, then: then)
                 }).responseString(completionHandler: { (string) in
-                    print(string.result.value)
+                    // Handle debug
                 })
                 
             case .failure(let error):

@@ -18,6 +18,7 @@
 		39D18E3422F8E6BE0005718C /* CodableInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D18E2F22F8E6BE0005718C /* CodableInit.swift */; };
 		39D18E3722F8E7640005718C /* APIRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D18E3622F8E7640005718C /* APIRequestHandler.swift */; };
 		5E8319F46E01F58B15313174 /* Pods_AENetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAA855BB44204632B86E57F /* Pods_AENetworkTests.framework */; };
+		66DEAE8FBFBF274161665D0A /* Pods_AENetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8368A3BBEEAEDDB60C4B9020 /* Pods_AENetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		0BAA855BB44204632B86E57F /* Pods_AENetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AENetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9287736559A84A77D1B154 /* Pods-AENetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-AENetwork/Pods-AENetwork.release.xcconfig"; sourceTree = "<group>"; };
 		20457651630C6781837E8777 /* Pods-AENetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetwork.release.xcconfig"; path = "Target Support Files/Pods-AENetwork/Pods-AENetwork.release.xcconfig"; sourceTree = "<group>"; };
 		39D18E0A22F8E68D0005718C /* AENetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AENetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D18E0D22F8E68D0005718C /* AENetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AENetwork.h; sourceTree = "<group>"; };
@@ -49,7 +51,10 @@
 		5A4F12A5D475C594EC318F4F /* Pods-AENetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetworkTests.debug.xcconfig"; path = "Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		71F70A696346740D0E3B9E30 /* Pods-AENetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetworkTests.release.xcconfig"; path = "Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		8368A3BBEEAEDDB60C4B9020 /* Pods_AENetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AENetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEEBA879C410DD262C1A05D /* Pods-AENetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		946BD4C30A058501D480DA76 /* Pods-AENetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AENetwork/Pods-AENetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		B43A3F3FE5FE2A3124B73C00 /* Pods-AENetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetwork.debug.xcconfig"; path = "Target Support Files/Pods-AENetwork/Pods-AENetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E368FB4D2E7A5BA9FD5AA4 /* Pods-AENetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AENetworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DEAE8FBFBF274161665D0A /* Pods_AENetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +163,10 @@
 				20457651630C6781837E8777 /* Pods-AENetwork.release.xcconfig */,
 				5A4F12A5D475C594EC318F4F /* Pods-AENetworkTests.debug.xcconfig */,
 				71F70A696346740D0E3B9E30 /* Pods-AENetworkTests.release.xcconfig */,
+				946BD4C30A058501D480DA76 /* Pods-AENetwork.debug.xcconfig */,
+				0D9287736559A84A77D1B154 /* Pods-AENetwork.release.xcconfig */,
+				D6E368FB4D2E7A5BA9FD5AA4 /* Pods-AENetworkTests.debug.xcconfig */,
+				8AEEBA879C410DD262C1A05D /* Pods-AENetworkTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 				39D18E0F22F8E68D0005718C /* Sources */,
 				39D18E1022F8E68D0005718C /* Frameworks */,
 				39D18E1122F8E68D0005718C /* Resources */,
+				DB4E110987C9E0972BF184B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -309,6 +320,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4E110987C9E0972BF184B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AENetworkTests/Pods-AENetworkTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -471,7 +504,7 @@
 		};
 		39D18E1F22F8E68D0005718C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43A3F3FE5FE2A3124B73C00 /* Pods-AENetwork.debug.xcconfig */;
+			baseConfigurationReference = 946BD4C30A058501D480DA76 /* Pods-AENetwork.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,7 +530,7 @@
 		};
 		39D18E2022F8E68D0005718C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20457651630C6781837E8777 /* Pods-AENetwork.release.xcconfig */;
+			baseConfigurationReference = 0D9287736559A84A77D1B154 /* Pods-AENetwork.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -523,7 +556,7 @@
 		};
 		39D18E2222F8E68D0005718C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A4F12A5D475C594EC318F4F /* Pods-AENetworkTests.debug.xcconfig */;
+			baseConfigurationReference = D6E368FB4D2E7A5BA9FD5AA4 /* Pods-AENetworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,7 +576,7 @@
 		};
 		39D18E2322F8E68D0005718C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71F70A696346740D0E3B9E30 /* Pods-AENetworkTests.release.xcconfig */;
+			baseConfigurationReference = 8AEEBA879C410DD262C1A05D /* Pods-AENetworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
